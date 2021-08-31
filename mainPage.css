@@ -1,0 +1,79 @@
+html, body {
+    background-color: #151515;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+}
+
+p {
+    color: white;
+}
+
+nav {
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    resize: none;
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+    margin-bottom: 40px;
+    align-items: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#KevinKhouri {
+    margin-left: 3rem;
+    margin-right: 4rem;
+    padding: 0.3rem;
+    border-radius: 10%;
+    border: 2px solid #ffe711;
+}
+
+#nav-bar-menu {
+    flex-grow: 6;
+    font-size: 0.8em;
+}
+
+#nav-bar-menu #sectionButton {
+    padding: 20px;
+    margin-right: 1rem;
+    color: white;
+    font-size: 1em;
+    background: none;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#SearchBar {
+    background: #000000;
+    border: none;
+    resize: none;
+    width: 20rem;
+    height: 2.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.9rem;
+    padding-right: 0.4rem;
+    margin-right: 3%;
+    border-radius: 35px;
+}
+
+#scheduleInterview {
+    text-align: center;
+    margin-right: 2rem;
+    padding: 2px;
+    font-size: 0.8em;
+    border: 2px solid white;
+    border-radius: 30%;
+    resize: none;
+    width: 6rem;
+    height: 3.2rem;
+}
+
+
